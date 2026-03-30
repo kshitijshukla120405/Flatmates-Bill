@@ -1,86 +1,122 @@
-Flatmates Bill Splitter
+# FLATMATES BILL SPLITTER
 
-A simple and efficient Flatmates Bill Management System that helps roommates track shared expenses and fairly split bills among all members.
+---
 
-This project automates expense calculation, reduces manual errors, and ensures transparent cost sharing between flatmates.
+## PROJECT OVERVIEW
 
-📌 Project Overview
+Flatmates Bill Splitter is a Python-based application designed to simplify expense sharing among roommates or flatmates. The project allows users to input shared expenses, automatically calculate individual contributions, and generate a clear breakdown of payments.
 
-Managing shared expenses in a flat can be confusing and time-consuming. This application allows users to:
+This project demonstrates practical application of programming fundamentals, data handling, and real-world problem solving.
 
-Add shared expenses
-Track who paid
-Automatically split bills
-Calculate individual balances
-Avoid disputes through clear calculations
-🚀 Features
+---
 
-✅ Add multiple flatmates
-✅ Record expenses easily
-✅ Automatic bill splitting
-✅ Balance calculation for each member
-✅ Simple and clean logic implementation
-✅ Beginner-friendly project structure
+## PROBLEM STATEMENT
 
-🛠️ Tech Stack
-Language: Python / Java (edit based on your project)
+Managing shared expenses manually often leads to confusion, calculation errors, and disputes among flatmates. This project automates bill splitting to ensure transparency and fairness.
+
+---
+
+## FEATURES
+
+- Add multiple participants
+- Record shared expenses
+- Automatic bill calculation
+- Equal expense distribution
+- Clear payment summary
+- Easy terminal-based interaction
+
+---
+
+## TECH STACK
+
+Programming Language:
+- Python
+
 Concepts Used:
-Object Oriented Programming (OOP)
-Data Structures
-File Handling (if used)
-Basic Algorithmic Logic
-📂 Project Structure
+- Object-Oriented Programming
+- Functions and Modular Design
+- User Input Handling
+- Data Structures (Lists, Dictionaries)
+- Control Flow Logic
+
+Tools:
+- VS Code
+- Git
+- GitHub
+
+---
+
+## PROJECT STRUCTURE
+
 Flatmates-Bill/
 │
-├── main.py / Main.java
-├── expense.py
-├── user.py
-├── README.md
-└── requirements.txt (if applicable)
+├── main.py
+├── requirements.txt
+└── README.md
 
-(Modify according to your actual files.)
+---
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+## HOW IT WORKS
+
+1. User enters the names of flatmates.
+2. Expenses are added into the system.
+3. The program calculates total spending.
+4. Each person's share is computed automatically.
+5. Final settlement summary is displayed.
+
+---
+
+## INSTALLATION
+
+Clone the repository:
+
 git clone https://github.com/kshitijshukla120405/Flatmates-Bill.git
-2️⃣ Navigate to project folder
-cd Flatmates-Bill
-3️⃣ Run the project
 
-Python
+Move into the project directory:
+
+cd Flatmates-Bill
+
+Run the program:
 
 python main.py
 
-OR Java
+---
 
-javac Main.java
-java Main
-💡 Example Workflow
-Add flatmates
-Enter expense amount
-Select who paid
-System calculates each person's share
-Displays balances automatically
-🎯 Learning Outcomes
+## SAMPLE USE CASE
 
-Through this project, I learned:
+Example:
+Total Bill = 3000
+Flatmates = 3
 
-Designing real-world problem solutions
-Implementing OOP concepts
-Writing modular and readable code
-Handling shared financial logic
-Structuring a GitHub project professionally
-🔮 Future Improvements
-GUI interface (Tkinter / JavaFX / Web App)
-Database integration (MySQL / MongoDB)
-Expense history tracking
-Mobile app version
-Authentication system
-🤝 Contributing
+Each person pays = 1000
 
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+The system outputs who owes how much in a clear format.
 
-📧 Contact
+---
 
-Kshitij Shukla
-GitHub: https://github.com/kshitijshukla120405
+## LEARNING OUTCOMES
+
+- Practical Python project development
+- Writing structured and maintainable code
+- Solving real-world problems using programming
+- Using Git and GitHub for version control
+
+---
+
+## FUTURE IMPROVEMENTS
+
+- GUI interface using Streamlit or Tkinter
+- Database integration
+- Expense categories
+- Web application deployment
+- Payment tracking system
+
+---
+
+## AUTHOR
+
+Kshitij Shukla  
+Computer Science and Engineering (Data Science) Undergraduate
+
+GitHub:
+https://github.com/kshitijshukla120405
